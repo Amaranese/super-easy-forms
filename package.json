@@ -1,0 +1,35 @@
+{
+  "name": "super-easy-forms",
+  "version": "2.1.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node super-easy-forms.js",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node.js",
+    "aws-sdk-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "www.google.com"
+  },
+  "homepage": "",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "aws-sdk": "^2.1118.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
